@@ -8,8 +8,13 @@
 
 ## How to reproduce our results:
 1. Makes sure your tensorflow backend runs on CPU.
-2. Open `heartbeats cnn.ipynb`.
-3. Run cells in their intended order.
+2. Make sure you're using Python 3.7 or follow instructions below to reproduce our results in Google Colab.
+    1. Clone the repository.
+    2. Open [this link](https://colab.research.google.com/github/yaremenko8/heartbeats_cnn/blob/main/heartbeats%20cnn.ipynb).
+    3. Create `beats` folder in the current directory.
+    4. Upload the contents of `beats` from the repository you just cloned to `beats` that you've just created in colab.
+3. Open `heartbeats cnn.ipynb`.
+4. Run cells in their intended order.
 
 ## Results summary:
 * Non-DL approach yielded 76% balanced accuracy with a featureset that comprises a downsampled version of the ECG readings and a segment of its power spectrum.
