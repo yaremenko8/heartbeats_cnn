@@ -7,8 +7,9 @@
 * Try to further improve the performance of the aforementioned CNN by creating a CNN-LSTM hybrid based on the original (purely CNN) model.
 
 ## How to reproduce our results:
-1. Open `heartbeats cnn.ipynb`.
-2. Run cells in their intended order.
+1. Makes sure your tensorflow backend runs on CPU.
+2. Open `heartbeats cnn.ipynb`.
+3. Run cells in their intended order.
 
 ## Results summary:
 * Non-DL approach yielded 76% balanced accuracy with a featureset that comprises a downsampled version of the ECG readings and a segment of its power spectrum.
