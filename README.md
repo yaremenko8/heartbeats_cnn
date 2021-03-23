@@ -9,3 +9,8 @@
 ## How to reproduce our results:
 1. Open `heartbeats cnn.ipynb`.
 2. Run cells in their intended order.
+
+## Results summary:
+* Non-DL approach yielded 76% balanced accuracy with a featureset that comprises a downsampled version of the ECG readings and a segment of its power spectrum.
+* CNN improved this result all the way to 89%, thus reducing average misclassification frequency by over 50%.
+* The novel CNN-LSTM hybrid model yielded a mean recall (balanced accuracy) of 92%, thereby reducing average misclassification frequency by further 23%.
